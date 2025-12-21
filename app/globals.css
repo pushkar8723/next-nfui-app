@@ -1,0 +1,28 @@
+/* @import "tailwindcss"; */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 98%;
+  width: 900px;
+}
+
+#demo-container-card {
+    background-color: #ffffff55;
+}

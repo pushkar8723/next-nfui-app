@@ -1,0 +1,9 @@
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 250px;
+    min-width: 250px;
+}

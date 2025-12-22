@@ -12,6 +12,9 @@ export default function Home() {
                         This is a Next JS app using No Frills UI components.
                         <br />I created this app to test the components and to
                         demo how to use them.
+                        <br /> This helps me verify the components works as
+                        controlled components and also helps me verify that the
+                        SSR works.
                     </div>
                     <div>
                         Visit{" "}
@@ -43,6 +46,9 @@ export default function Home() {
                         </li>
                         <li>
                             <Link href="/checkbox">Checkbox</Link>
+                        </li>
+                        <li>
+                            <Link href="/chip">Chip</Link>
                         </li>
                         <li>
                             <Link href="/chip-input">Chip Input</Link>

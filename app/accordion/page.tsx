@@ -1,6 +1,15 @@
-'use client';
+"use client";
 import Header from "@/components/header";
-import { Accordion, AccordionStep, AccordionStepBody, AccordionStepFooter, ActionButton, Button, Card, CardBody, CardHeader } from "no-frills-ui";
+import {
+    Accordion,
+    AccordionStep,
+    AccordionStepBody,
+    AccordionStepFooter,
+    ActionButton,
+    Button,
+    Card,
+    CardBody,
+} from "no-frills-ui";
 import { useState } from "react";
 
 export default function AccordionPage() {
@@ -20,35 +29,61 @@ export default function AccordionPage() {
                                 Dummy content for Welcome step
                             </AccordionStepBody>
                             <AccordionStepFooter>
-                                <ActionButton onClick={() => setActive(1)}>Next</ActionButton>
+                                <ActionButton onClick={() => setActive(1)}>
+                                    Next
+                                </ActionButton>
                             </AccordionStepFooter>
                         </AccordionStep>
-                        <AccordionStep header="Basic Details" completed={active > 1}>
+                        <AccordionStep
+                            header="Basic Details"
+                            completed={active > 1}
+                        >
                             <AccordionStepBody>
                                 Dummy content for Basic Details step
                             </AccordionStepBody>
                             <AccordionStepFooter>
-                                <Button onClick={() => setActive(0)}>Back</Button>
-                                <ActionButton onClick={() => setActive(2)}>Next</ActionButton>
+                                <Button onClick={() => setActive(0)}>
+                                    Back
+                                </Button>
+                                <ActionButton onClick={() => setActive(2)}>
+                                    Next
+                                </ActionButton>
                             </AccordionStepFooter>
                         </AccordionStep>
-                        <AccordionStep header="Personalisation" errorText="3 Errors" disabled completed={active > 2}>
+                        <AccordionStep
+                            header="Personalisation"
+                            errorText="3 Errors"
+                            disabled
+                            completed={active > 2}
+                        >
                             <AccordionStepBody>
-                                Personalisation Step is disabled but you can open it via controlling
-                                the <code>active</code> prop.
+                                Personalisation Step is disabled but you can
+                                open it via controlling the <code>active</code>{" "}
+                                prop.
                             </AccordionStepBody>
                             <AccordionStepFooter>
-                                <Button onClick={() => setActive(1)}>Back</Button>
-                                <ActionButton onClick={() => setActive(3)}>Next</ActionButton>
+                                <Button onClick={() => setActive(1)}>
+                                    Back
+                                </Button>
+                                <ActionButton onClick={() => setActive(3)}>
+                                    Next
+                                </ActionButton>
                             </AccordionStepFooter>
                         </AccordionStep>
-                        <AccordionStep header="Verification" completed={active > 3}>
+                        <AccordionStep
+                            header="Verification"
+                            completed={active > 3}
+                        >
                             <AccordionStepBody>
                                 Dummy content for Verification step
                             </AccordionStepBody>
                             <AccordionStepFooter>
-                                <Button onClick={() => setActive(2)}>Back</Button>
-                                <ActionButton onClick={() => setActive(-1)}>Done</ActionButton>
+                                <Button onClick={() => setActive(2)}>
+                                    Back
+                                </Button>
+                                <ActionButton onClick={() => setActive(-1)}>
+                                    Done
+                                </ActionButton>
                             </AccordionStepFooter>
                         </AccordionStep>
                     </Accordion>

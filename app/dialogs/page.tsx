@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Header from "@/components/header";
 import { AlertDialog, Button, Card, CardBody, CardHeader } from "no-frills-ui";
 import { useRef } from "react";
@@ -11,23 +11,23 @@ export default function BadgePage() {
         }
     };
     return (
-        <>  
+        <>
             <Header
                 title="Dialogs Demo"
                 docLink="https://nfui.js.org/?path=/docs/imperative-components-dialog--docs"
             />
             <Card>
-                <CardHeader>
-                    Alert Dialog
-                </CardHeader>
+                <CardHeader>Alert Dialog</CardHeader>
                 <CardBody>
-                    <AlertDialog 
+                    <AlertDialog
                         ref={alertDialogRef}
-                        header='✉️ Invitation Sent!'
-                        body='Your invitation has been sent to the specified email addresses.'
-                        buttonText='Got it!'
+                        header="✉️ Invitation Sent!"
+                        body="Your invitation has been sent to the specified email addresses."
+                        buttonText="Got it!"
                     />
-                    <Button type='button' onClick={showAlert}>Show Alert Dialog</Button>
+                    <Button type="button" onClick={showAlert}>
+                        Show Alert Dialog
+                    </Button>
                 </CardBody>
             </Card>
         </>

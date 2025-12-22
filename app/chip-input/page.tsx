@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { ChipInput, Card, CardBody, CardHeader } from "no-frills-ui";
 import { useState } from "react";
 import "./chip-input.css";
@@ -13,9 +13,7 @@ export default function BadgePage() {
                 docLink="https://nfui.js.org/?path=/docs/declarative-components-chipinput--docs"
             />
             <Card>
-                <CardHeader>
-                    Chip Input
-                </CardHeader>
+                <CardHeader>Chip Input</CardHeader>
                 <CardBody className="chip-input-container">
                     <ChipInput
                         label="Invite Admins"
@@ -26,10 +24,17 @@ export default function BadgePage() {
                         onChange={setValue}
                     />
                     {value.length > 0 && (
-                        <p>
-                            <strong>Following emails will be invited for admin role:</strong><br/>
-                            {value.join(', ')}
-                        </p>
+                        <div>
+                            <strong>
+                                Following emails will be invited for admin role:
+                            </strong>
+                            <br />
+                            <ol>
+                                {value.map((value) => (
+                                    <li key={value}>{value}</li>
+                                ))}
+                            </ol>
+                        </div>
                     )}
                 </CardBody>
             </Card>

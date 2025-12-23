@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container .card {
+    flex: 1 1 200px;
+    min-width: 200px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}

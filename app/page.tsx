@@ -56,6 +56,9 @@ export default function Home() {
                         <li>
                             <Link href="/drag-and-drop">Drag And Drop</Link>
                         </li>
+                        <li>
+                            <Link href="/drawer">Drawer</Link>
+                        </li>
                     </ol>
                 </CardBody>
             </Card>
@@ -63,11 +66,11 @@ export default function Home() {
                 <CardHeader>Imperative Components</CardHeader>
                 <CardBody>
                     Following components are imperative.
-                    <ul>
+                    <ol>
                         <li>
                             <Link href="/dialogs">Dialogs</Link>
                         </li>
-                    </ul>
+                    </ol>
                 </CardBody>
             </Card>
         </>

@@ -53,6 +53,9 @@ export default function Home() {
                         <li>
                             <Link href="/chip-input">Chip Input</Link>
                         </li>
+                        <li>
+                            <Link href="/drag-and-drop">Drag And Drop</Link>
+                        </li>
                     </ol>
                 </CardBody>
             </Card>

@@ -59,6 +59,9 @@ export default function Home() {
                         <li>
                             <Link href="/drawer">Drawer</Link>
                         </li>
+                        <li>
+                            <Link href="/inputs">Inputs</Link>
+                        </li>
                     </ol>
                 </CardBody>
             </Card>

@@ -65,6 +65,9 @@ export default function Home() {
                         <li>
                             <Link href="/group">Group</Link>
                         </li>
+                        <li>
+                            <Link href="/modal">Modal</Link>
+                        </li>
                     </ol>
                 </CardBody>
             </Card>

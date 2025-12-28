@@ -60,7 +60,7 @@ export default function Home() {
                             <Link href="/drawer">Drawer</Link>
                         </li>
                         <li>
-                            <Link href="/inputs">Inputs</Link>
+                            <Link href="/form-inputs">Form Inputs</Link>
                         </li>
                     </ol>
                 </CardBody>

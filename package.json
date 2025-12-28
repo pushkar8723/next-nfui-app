@@ -14,7 +14,7 @@
     "@emotion/styled": "^11.14.1",
     "formik": "^2.4.9",
     "next": "^16.0.7",
-    "no-frills-ui": "0.0.14-rc.2",
+    "no-frills-ui": "file:.yalc/no-frills-ui",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "yup": "^1.7.1"

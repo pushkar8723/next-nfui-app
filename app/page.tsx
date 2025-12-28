@@ -62,6 +62,9 @@ export default function Home() {
                         <li>
                             <Link href="/form-inputs">Form Inputs</Link>
                         </li>
+                        <li>
+                            <Link href="/group">Group</Link>
+                        </li>
                     </ol>
                 </CardBody>
             </Card>

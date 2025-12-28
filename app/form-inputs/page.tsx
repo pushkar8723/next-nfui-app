@@ -340,7 +340,7 @@ const Step3 = ({ getError }: StepProps) => (
     </>
 );
 
-export default function Inputs() {
+export default function FormInputs() {
     const [active, setActive] = useState(0);
     const [completed, setCompleted] = useState(-1);
     const [message, setMessage] = useState("");

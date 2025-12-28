@@ -82,6 +82,9 @@ export default function Home() {
                         <li>
                             <Link href="/dialogs">Dialogs</Link>
                         </li>
+                        <li>
+                            <Link href="/notifications">Notifications</Link>
+                        </li>
                     </ol>
                 </CardBody>
             </Card>

@@ -60,6 +60,9 @@ export default function Home() {
                             <Link href="/drawer">Drawer</Link>
                         </li>
                         <li>
+                            <Link href="/dropdown">Dropdown</Link>
+                        </li>
+                        <li>
                             <Link href="/form-inputs">Form Inputs</Link>
                         </li>
                         <li>

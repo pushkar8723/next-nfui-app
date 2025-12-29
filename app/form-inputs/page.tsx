@@ -515,10 +515,11 @@ export default function FormInputs() {
                             <Form>
                                 <CardHeader>Sign Up</CardHeader>
                                 <CardBody>
-                                    <Card style={{ overflow: "auto" }}>
+                                    <Card>
                                         <Stepper
                                             active={active}
                                             onStepClick={setActive}
+                                            className="stepper"
                                         >
                                             <Step
                                                 name="Basic Information"
